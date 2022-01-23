@@ -1,0 +1,195 @@
+/* First Thing is Resets */
+/* Standard Resets */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* ******************** */
+/* NAVBAR */
+/* ******************** */
+.navbar {
+    color: whitesmoke;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: black 1px dashed; */
+    background-color: black;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: black;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+    /* border: red 1px dashed; */
+    /* width & height percentage are in reference to the container it is within */
+.nav-background {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navprofile{
+    /* border: red 1px dashed; */
+    padding: 20px;
+}
+.navlinks {
+    color: pink;
+    display: flex;
+    /* border: red 1px dashed; */
+    gap: 25px;
+    flex: 2;
+}
+
+
+/* ******************** */
+/* MAIN */
+/* ******************** */
+
+.main {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    gap: 25px;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+}
+
+/* Left Use Card */
+body {
+    background-color: whitesmoke;
+    font-family: "Comic Sans MS";
+}
+
+.bluebox {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(66, 183, 204);
+}
+
+.usercircle {
+    height: 150px;
+    width: 150px;
+    margin-top: -50px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.user {
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.map {
+    width: 20px;
+}
+
+.gear {
+    width: 20px;
+}
+
+.profileinfo {
+    /* margin: 15px;  */
+}
+
+/* Bottom Left Education */
+.education {
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    align-items: left;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.info {
+    padding: 20px;
+    line-height: 150%;
+}
+
+.usercard {
+    margin-bottom: 20px;
+    border: 1px gray solid;
+}
+
+.edubox {
+    border: solid 1px gray;
+}
+
+.gray {
+    color: gray;
+}
+
+/* Right Connection Requests */
+
+.divavatar {
+    width: 55px;
+    border-radius: 50%;
+}
+
+.connections {
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.names {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.icon img {
+    width: 40px;
+}
+
+.top {
+    border: 1px solid gray;
+    margin-bottom: 40px;
+}
+/* Right Your Connections */
+
+.names2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.names2 img {
+    width: 45px;
+}
+
+.link {
+    padding: 15px;
+    border-top: 1px solid gray;
+}
